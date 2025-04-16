@@ -2,8 +2,7 @@
 //  ContentView.swift
 //  WeSplit
 //
-//  Created by Serge Eliseev on 13.02.2025.
-//
+
 
 import SwiftUI
 
@@ -19,14 +18,12 @@ struct ContentView: View {
     var totalcheck: Double {
         let tipValue = checkAmount / 100 * Double(tipPercentage)
         return checkAmount + tipValue
-        
     }
     
     var totalPerPerson: Double {
         let tipValue = checkAmount / 100 * Double(tipPercentage)
         let grandTotal = checkAmount + tipValue
         let amountPresonal = grandTotal / (Double(numberOfPeople) + 2.0)
-        
         return amountPresonal
     }
 
@@ -75,10 +72,7 @@ struct ContentView: View {
                     }
                 }
             }
- 
         }
-        
-    
     }
 }
 
