@@ -21,3 +21,9 @@ WeSplit — это простое и интуитивно понятное пр�
 1. Клонируйте репозиторий:
    ```bash
    git clone https://github.com/Serge-17/WeSplit.git
+
+
+## 👨‍💻 Автор
+
+**Serge Eliseev**
+- GitHub: [@Serge-17](https://github.com/Serge-17)
